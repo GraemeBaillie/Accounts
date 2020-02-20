@@ -1,0 +1,103 @@
+
+#ignore thumbnails created by windows
+Thumbs.db
+*.orig
+*.jbf
+#Ignore files build by Visual Studio
+*.obj
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+obj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+logs/**/*
+Admin/CCGTMarbloxAdmin/config/local.config
+Portal/CCGTMarbloxPortal/config/local.config
+Admin/logs/Warn.txt
+Admin/logs/archives/Warn/log.00000.txt
+Admin/logs/Debug.txt
+Portal/logs/Warn.txt
+Portal/CCGTMarbloxPortal/CCGTMarbloxPortal.csproj.user
+/Portal/CCGTMarbloxPortal/js/ckeditor/
+/Portal/CCGTMarbloxPortal/js/cct-ckeditor-plugins/
+/Admin/CCGTMarbloxAdmin/js/ckeditor/
+/Admin/CCGTMarbloxAdmin/js/cct-ckeditor-plugins/
+/Lucid/Public/ckeditor/
+/Lucid/Public/cct-ckeditor-plugins/
+/CCGT.CKEditor/js/ckeditor/build-config.js
+/CCGT.CKEditor/js/ckeditor/config.js
+/CCGT.CKEditor/js/ckeditor/samples/
+*.csproj.user
+Admin/logs/
+Portal/logs/
+CCGTMeerkatPortal.dll
+Issues-29-06-10.csv
+INPDF.txt
+INMaxWords.txt
+INTypes.txt
+Issues-07-07-10.csv
+Issues-06-07-10.csv
+upload.txt
+MarbloxNIHR.zip
+Admin/CCGTMarbloxAdmin/img/Thumbs.db
+DataExchange/DataManagement only.sln
+DataExchange/CCGTDataExchange only.sln
+DataExchange/CCGTDataExchange/dataexchange/*
+Admin/CCGTMarbloxAdmin/config/connections.config
+Admin/CCGTMarbloxAdmin/config/settings.config_LT
+DataExchange/Clients/*
+Admin/CCGTMarbloxAdmin/config/settings.config_SCL
+Components_old/AdvancedIntellect.Ssl.dll
+DataExchange/Clients
+Admin/CCGTMarbloxAdmin/App_Data/Templates/EmailTemplateAttachments/ApplicantInformation.pdf
+Admin/CCGTMarbloxAdmin/App_Data/Templates/EmailTemplateAttachments/submission process.pdf
+DataExchange/Clients/BCC/document import.xml
+DataExchange/Clients/BCC/remaining docs.txt
+DataExchange/Clients/BCC/tweaked documents.xml
+DataExchange/Clients/DUK/Active grants - 11-09-2013.xlsx
+DataExchange/Clients/DUK/cct_contacts.txt
+#Project specific
+Lucid/Lucid.Publish.xml
+Generated/code/
+settings/
+*.orig
+Lucid/config/local.config
+.vs/
+Admin/CCGTMarbloxAdmin/App_Data/logs/
+
+#Ignore Project Rider configuration files
+*.iml
+.idea/
+check commit branches.sh
+check compare commits.sh
+Admin/CCGTMarbloxAdmin/node_modules/
+Portal/CCGTMarbloxPortal/node_modules/
+*.stackdump
+Lucid/App_Data/logs/
+Lucid/shadow/
+node_modules/
+packages/*
+API/packages/*
+Admin/CCGTMarbloxAdmin/CCGTMongooseAdmin.csproj
+
+# CI temporary report files
+reports/
