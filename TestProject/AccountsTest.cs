@@ -23,6 +23,8 @@ namespace XUnitTestProject1
         [Fact]
         public void OutputTest()
         {
+            //I did make an assumption with all of this that the requestDateTime was the date time the request was made and not a specific day
+            // the accounts were requests for, mainly because it was the 13th and that would just give you the total balance at the end rather than on that day
             var Account = JsonConvert.DeserializeObject<AccountRequestModel>(File.ReadAllText("./AppData/Account.json"));
             var outputs = _serviceProvider.GetService<IAccountService>().GetEndOfDayBalances(Account);
             //Tests in place to ensure the high level output numbers are correct
